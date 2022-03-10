@@ -1,0 +1,87 @@
+
+
+.menubg {
+	-fx-background-color: #feffff;
+}
+.media_player {
+	 -fx-background-color: #eaeaea;
+} 
+.control_hbox {
+	 -fx-background-color: #eaeaea;
+}
+.control_btn {
+	-fx-background-color: transparent;
+   	-fx-border-radius: 50%;
+   	-fx-border-color: black;
+  	-fx-background-radius: 20;
+  /*  -fx-padding: 5; */
+}
+.control_btn:hover {
+	-fx-background-color: #b0cadc;
+}
+.control_btn_on {
+	-fx-background-color: #b0cadc;	
+	-fx-border-radius: 50%;
+   	-fx-border-color: black;
+  	-fx-background-radius: 20;
+}
+.control_btn_off {
+	-fx-background-color: transparent;
+	-fx-border-radius: 50%;
+   	-fx-border-color: black;
+  	-fx-background-radius: 20;
+}
+
+.song_info_box {
+	-fx-background-color: #eaeaea;
+}
+.song_info_box:hover {
+	-fx-background-color: #feffff;
+}
+.song_name_uneditable {
+	-fx-background-color: transparent;	
+	-fx-border-color: transparent;
+	-fx-border-radius: 0;
+}
+.song_name_editable {
+	-fx-border-color: black;
+	-fx-border-radius: 1;
+}
+.song_hbox {
+	 -fx-background-color: #feffff;
+}
+.song_hbox:hover {
+	 -fx-background-color: #eaeaea;
+}
+.song_hbox_selected {
+	 -fx-background-color: #eaeaea;
+}
+.song_hbox_selected:hover {
+	 -fx-background-color: #eaeaea;
+}
+.song_hbox_playing {
+	 -fx-border-color: black;
+	 -fx-border-radius: 1;
+}
+
+.yt_vbox {
+	-fx-background-color: rgba(255,255,255,1);
+	-fx-border-radius: 1;
+   	-fx-border-color: black;
+}
+.song_lbl {
+	-fx-background-color: transparent; 
+}
+
+/*
+.root {
+    -fx-font-size: 14pt;
+    -fx-font-family: "Tahoma";
+    -fx-base: #DFB951;
+    -fx-background: #A78732;
+    -fx-focus-color: #B6A678;
+}
+.button1 {
+	-fx-font-size:15;
+}
+*/
